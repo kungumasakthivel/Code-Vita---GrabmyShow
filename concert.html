@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./concert.css">
+    <link rel="stylesheet" type="text/css" href="css/lightslider.css" />
+    <!-- <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <!--Jquery-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css"
+        integrity="sha512-+1GzNJIJQ0SwHimHEEDQ0jbyQuglxEdmQmKsu8KI7QkMPAnyDrL9TAnVyLPEttcTxlnLVzaQgxv2FpLCLtli0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/16c89dbffb.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <style>
+
+
+.search{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+.button{
+    justify-content: center;
+    width: 400px;
+    height: 42px;
+    border-radius: 30px;
+    background: rgb(240, 224, 233);
+    border:2px solid rgb(255, 243, 253);
+   
+   
+}
+.ser{
+  text-align: center;
+  border: none;
+  background: none;
+  outline: none;
+  color: rgb(59, 2, 43);
+  font-size: 16px;
+  line-height: 40px;
+  float: left;
+  width: 350px;
+}
+/* .button{
+  transform: translate(-50%,-50%);
+  background-color:  rgb(240, 224, 233);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.btn{
+    height: 39px;
+    width: 42px;
+    float: right;
+    border-radius: 50%;
+    background-color: rgb(53, 1, 30);
+    display: flex;
+    justify-content: center;
+}
+        </style>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="content">
+            <div class="title">
+                <h3>grab myShow</h3>
+            </div>
+            <div class="navbar">
+                <a href="#">HOME</a>
+                <a href="#">LOGIN</a>
+                <a href="#">REGISTER</a>
+                <a href="./categories.html">BOOK CONCERT</a>
+            </div>
+        </div>
+            <div class="search">
+                <h2 class="h2" style="font-family:'Times New Roman', Times, serif"> Enjoy the concert<br> you like</h2>
+                <div class="button">
+                   
+                 <input class="ser" id="search-item"  type="search" type="" placeholder="Search Your Concert">
+                   <a href="./categories.html" class="btn"> 
+                      <i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+            </div>
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------------- -->
+    <div class="recomended">
+        <h3>Recomended</h3>
+        <div class="container" id="">
+            <!--slider------------------->
+            <ul id="autoWidth" class="cs-hidden">
+                <!--1------------------------------>
+                <li class="item-a">
+                    <div class="box">
+                        <div class="arjith">
+                            <img src="./images/anirudh.webp">
+                            <div class="overlay">
+                                <a href="./anirudh.html" class="buy">Book Now</a>
+                            </div>
+                            <div class="details">
+                                <p>Melo with ANI</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <!--2------------------------------>
+                <li class="item-a">
+                    <div class="box">
+                        <div class="arjith">
+                            <img src="./images/neha.jpg">
+                            <div class="overlay">
+                                <a href="./neha.html" class="buy">Book Now</a>
+                            </div>
+                            <div class="details">
+                                <p>Neha"s Concert</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <!--3------------------------------>
+                <li class="item-a">
+                    <div class="box">
+                        <div class="arjith">
+                            <img src="./images/sid sriram.jpg">
+                            <div class="overlay">
+                                <a href="./sidsriram.html" class="buy">Book Now</a>
+                            </div>
+                            <div class="details">
+                                <p>Sing with SID</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <!--4------------------------------>
+                <li class="item-a">
+                    <div class="box">
+                        <div class="arjith">
+                            <img src="./images/pradeep.jpg">
+                            <div class="overlay">
+                                <a href="./pradeep.html" class="buy">Book Now</a>
+                            </div>
+                            <div class="details">
+                                <p>Soulful Eve</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <!--4------------------------------>
+                <li class="item-a">
+                    <div class="box">
+                        <div class="arjith">
+                            <img src="./images/jonita.jpg">
+                            <div class="overlay">
+                                <a href="./jonita.html" class="buy">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Musical Bash</p>
+                        </div>
+
+                    </div>
+                </li>
+                 <!--4------------------------------>
+                 <li class="item-a">
+                    <div class="box">
+                        <div class="arjith">
+                            <img src="./images/a.webp">
+                            <div class="overlay">
+                                <a href="./andrea.html" class="buy">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Eve with Andreya</p>
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"
+        integrity="sha512-Gfrxsz93rxFuB7KSYlln3wFqBaXUc1jtt3dGCp+2jTb563qYvnUBM/GP2ZUtRC27STN/zUamFtVFAIsRFoT6/w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js" type="text/javascript"></script>
+    <!-- ----------------------------------------------------------------------------------------------- -->
+    <!-- Image Slider Start -->
+    <div class="new-arrival">
+        <h3>New Arrivals</h3>
+        <div class="main">
+            <div class="slider">
+                <div class="slides">
+                    <!-- Radio Button Start  -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!-- Radio Button Close  -->
+
+                    <!-- Slide Image Start -->
+                    <div class="slide first">
+                        <img src="./images/pallavinew.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./images/pradeepnew.jpg" alt="">
+                        <div class="test">we te rgdd</div>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/randomnew.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./images/random2new.jpg" alt="">
+                    </div>
+                    <!-- Slide Image Close -->
+
+                    <!-- Automatic Navigation Start -->
+                    <div class="navigation-auto">
+                        <div class="auto-btn-1"></div>
+                        <div class="auto-btn-2"></div>
+                        <div class="auto-btn-3"></div>
+                        <div class="auto-btn-4"></div>
+                    </div>
+                    <!-- Automatic Navigation Close -->
+                </div>
+
+                <!-- Mannual Navigation Start -->
+                <div class="navigation-mannual">
+                    <label for="radio1" class="mannual-btn"></label>
+                    <label for="radio2" class="mannual-btn"></label>
+                    <label for="radio3" class="mannual-btn"></label>
+                    <label for="radio4" class="mannual-btn"></label>
+                </div>
+                <!-- Mannual Navigation Close -->
+            </div>
+            <!-- Image Slider Close -->
+            <script>
+                var counter = 1;
+                setInterval(function () {
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+
+                    if (counter > 4) {
+                        counter = 1
+                    }
+
+                }, 5000);
+            </script>
+        </div>
+    </div>
+    <!-- ---------------------------------grid------------------------------------------------------- -->
+    <div class="fullgrid">
+        <div class="grid1">
+            <div class="block">
+                <a href="./categories.html" class="cen">Categories</a>
+            </div>
+            <div class="image">
+                <img src="./images/g1.jpg">
+            </div>
+        </div>
+        <div class="grid2">
+            <div class="image">
+                <img src="./images/g3.jpg">
+            </div>
+            <div class="block">
+                <a href="./categories.html" class="cen">Online Concert</a>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------end of grid------------------------------------------------------- -->
+
+    <!-- ---------------------------------premier------------------------------------------------ -->
+    <div class="premier">
+        <div class="h">
+            <h3>PREMI<span id="r">E</span>R</h3>
+        </div>
+        <div class="pre-slide">
+            <div class="prem">
+                <spam></spam>
+                <div class="premcon">
+                <h4>Alan Walker</h4>
+                <p>Indian Series Of Alan Walker</p>
+            </div>
+            </div>
+            <div class="prem">
+                <spam></spam>
+                <div class="premcon">
+                <h4>Justin Bieber</h4>
+                <p>Justin Biebers Indian Series</p>
+            </div>
+            </div>
+            <div class="prem">
+                <spam></spam>
+                <div class="premcon">
+                <h4>Selena Gomez</h4>
+                <p>Selena In India</p>
+            </div>
+            </div> 
+            <!--slider------------------->
+            
+           
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Concert Booking</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online shop</h4>
+                        <ul>
+                            <li><a href="#">watch</a></li>
+                            <li><a href="#">bag</a></li>
+                            <li><a href="#">shoes</a></li>
+                            <li><a href="#">dress</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+             <div>
+                 <br>
+                 <hr/ class="line">
+             </div>
+             <div class="info" style="padding-bottom: 0px; ">
+                 <footer class="text-gray-600 body-font" style="padding-bottom: 0px;">
+                     <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+                       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                         <span class="ml-3 text-xl" style="color: #fff">Concert Booking</span>
+                       </a>
+                       <p  class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4" style="color: #BBBBBB;">© 2022 Consert Booking —
+                         <a style="color: #BBBBBB;" href="#" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@concertBooking</a>
+                       </p>
+                       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                       </span>
+                     </div>
+                   </footer>
+             </div>
+            </div>
+       </footer>
+
+
+        <!-- ---------------------------------------end of premier------------------------------------------- -->
+</body>
+
+</html>
